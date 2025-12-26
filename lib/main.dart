@@ -38,7 +38,7 @@ class _ControlPanelPageState extends State<ControlPanelPage>
   List<bool> turbinas = [true, true, true];
   late List<AnimationController> turbinaControllers;
 
-  int segundos = 600; // 30 segundos según el documento
+  int segundos = 30; // 30 segundos según el documento
   Timer? timer;
 
   // Variables de simulación
